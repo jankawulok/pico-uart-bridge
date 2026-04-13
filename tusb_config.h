@@ -15,6 +15,7 @@
 #define CFG_TUD_CDC 2
 #define CFG_TUD_CDC_RX_BUFSIZE 2048
 #define CFG_TUD_CDC_TX_BUFSIZE 2048
+#define CFG_TUD_CDC_EPSIZE 512
 
 void usbd_serial_init(void);
 
